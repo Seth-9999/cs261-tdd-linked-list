@@ -18,5 +18,9 @@ class LinkedList:
         return self.value is None
 
     def is_empty(self):
-        return self.value is None
+        if self.value is not None or self.next is not self or self.prev is not self:
+            return False
+        else:
+            return True
+
     pass
