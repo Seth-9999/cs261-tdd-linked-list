@@ -16,4 +16,7 @@ class LinkedList:
 
     def is_sentinel(self):
         return self.value is None
+
+    def is_empty(self):
+        return self.value is None
     pass
